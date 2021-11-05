@@ -41,6 +41,9 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *string* | defaultEventTextColor | States the default text color that should be used for events (defaults to "#F5F5F5"). |
 | *string* | defaultEventBorderColor | States the default border color that should be used for events (defaults to "#282828"). |
 | *boolean* | showExtraMainDisplayToolbarButtons | States if the extra toolbar buttons on the main display (except Previous/Next Month) are visible (defaults to true). |
+| *boolean* | openInFullScreenMode | States if full screen mode should be turned on when the calendar is rendered (defaults to false). |
+| *boolean* | showEmptyDaysInWeekView | States if empty days should be shown in the Week view (defaults to true). |
+| *boolean* | hideEventsWithoutGroupAssigned | States if events without a group should be hidden (defaults to false). |
 
 <br/>
 
@@ -180,7 +183,9 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *string* | duplicateText | The text that should be displayed for the "Duplicate" label. |
 | *string* | showAlertsText | The text that should be displayed for the "Show Alerts" label. |
 | *string* | selectDatePlaceholderText | The text that should be displayed for the "Select date..." date-picker placeholder text. |
+| *string* | hideDayText | The text that should be displayed for the "Hide Day" date-picker placeholder text. |
 | *string* | notSearchText | The text that should be displayed for the "Not (opposite)" label. |
+| *string* | showEmptyDaysInWeekViewText | The text that should be displayed for the "Show empty days in the week view" label. |
 
 <br/>
 
@@ -210,3 +215,4 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | onEventsSetFromJSON | Specifies an event that will be triggered when events are set from JSON and the originals are cleared (passes the JSON to the function). |
 | onEventsAddedFromJSON | Specifies an event that will be triggered when events are added from JSON (passes the JSON to the function). |
 | onDatePickerDateChanged | Specifies an event that will be triggered when a date is selected in date-picker mode (passes the new date to the function). |
+| onGroupRemoved | Specifies an event that will be triggered when a group is removed (passes the group removed to the function). |
