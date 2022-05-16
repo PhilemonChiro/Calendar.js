@@ -46,6 +46,7 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *boolean* | hideEventsWithoutGroupAssigned | States if events without a group should be hidden (defaults to false). |
 | *boolean* | showHolidays | States if the holidays should be shown (defaults to true). |
 | *boolean* | useTemplateWhenAddingNewEvent | States if a blank template event should be added when adding a new event (causing the dialog to be in edit mode, defaults to true). |
+| *boolean* | useEscapeKeyToExitFullScreenMode | States if the escape key should exit full-screen mode (if enabled, defaults to true). |
 
 <br/>
 
