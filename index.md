@@ -1,4 +1,4 @@
-## Welcome to Calendar v1.4.5!
+## Welcome to Calendar v1.5.0!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
@@ -36,6 +36,7 @@ Features include:
 - Browser notifications for events (modern browsers only).
 - Drop file support (allowing a file containing JSON, or an array of events, to be added).
 - DatePicker mode (just assign to the ID of an text input).
+- HTML text support (off by default).
 <br />
 
 ## Recent Changes:
