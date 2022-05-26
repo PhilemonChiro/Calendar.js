@@ -50,6 +50,7 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *Object* | minimumDatePickerDate | States the minimum date that can be selected in DatePicker mode (defaults to null). |
 | *Object* | maximumDatePickerDate | States the minimum date that can be selected in DatePicker mode (defaults to null). |
 | *boolean* | allowHtmlInDisplay | States if HTML can be used in the display (defaults to false). |
+| *string* | datePickerSelectedDateFormat | States the display format that should be used for the DatePicker input field (defaults to "{d}{o} {mmm} {yyyy}", see date display formats [here](date_formats.md) for options). |
 
 <br/>
 
