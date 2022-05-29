@@ -1,4 +1,4 @@
-## Welcome to Calendar v1.6.0!
+## Welcome to Calendar v1.6.1!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
@@ -13,7 +13,7 @@ Features include:
 - Copy & Paste, and Duplication of events.
 - Configurable text for translations.
 - Day, Week, Month, and All Events views.
-- Fully styled in CSS/SASS (including the buttons).
+- Fully styled in CSS/SASS (including the buttons) and compatible with the Bootstrap library.
 - Custom events for actions (adding/updating/removing events, skipping months, etc).
 - Export to CSV, XML, JSON, TEXT, iCAL, MD, HTML, and TSV.
 - Full-screen mode (double clicking the title bar).
