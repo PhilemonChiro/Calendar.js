@@ -1,4 +1,4 @@
-## Welcome to Calendar v1.6.3!
+## Welcome to Calendar v1.6.4!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
